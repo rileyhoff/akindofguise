@@ -9,7 +9,6 @@ function Card(props){
 
   const toggleClass = (el) => {
     setActive(!isActive);
-   
   };
 
   useEffect(() => {
@@ -41,27 +40,27 @@ function Card(props){
           <div className='atc'><div className='sizes'>
             <label>
               <input type="radio" name="sizes" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
               <span className='txt'>XS</span>
             </label>
             <label>
               <input type="radio" name="sizes"   />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
               <span className='txt'>S</span>
             </label>
             <label>
               <input type="radio" name="sizes" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
               <span className='txt'>M</span>
             </label>
             <label>
               <input type="radio" name="sizes" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
               <span className='txt'>L</span>
             </label>
             <label>
               <input type="radio" name="sizes" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
               <span className='txt'>XL</span>
               
             </label>

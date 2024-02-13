@@ -35,7 +35,7 @@ function Hero() {
           <img
             className="hoverimage"
             src="./images/HOLIDAY_DROP_MOODS-1007-1000x1500.jpg"
-            style={{ top: mousePos.y / 10 - 175, left: mousePos.x / 10 - 50 }}
+            style={{ top: parseInt( mousePos.y / 10 - 175,) || 0, left: parseInt(mousePos.x / 10 - 50 ) || 0}}
             alt=""
           />
         </a>
@@ -44,7 +44,7 @@ function Hero() {
           <img
             className="hoverimage"
             src="./images/hero-w.jpg"
-            style={{ top: mousePos.y / 10 - 50, left: mousePos.x / 10 - 75 }}
+            style={{ top: parseInt( mousePos.y / 10 - 50) || 0, left: parseInt(mousePos.x / 10 - 75) || 0 }}
             alt=""
           />
         </a>
@@ -53,7 +53,7 @@ function Hero() {
           <img
             className="hoverimage"
             src="./images/AKOG_HOLIDAY_DROP_MOODS-06-1000x1500.jpg"
-            style={{ top: mousePos.y / 10 - 150, left: mousePos.x / 10 - 150 }}
+            style={{ top: parseInt(mousePos.y / 10 - 150) || 0, left: parseInt(mousePos.x / 10 - 150) || 0 }}
             alt=""
           />
         </a>
@@ -62,7 +62,7 @@ function Hero() {
           <img
             className="hoverimage"
             src="./images/HOLIDAY_DROP_MOODS-1129-1000x1500.jpg"
-            style={{ top: mousePos.y / 10 - 50, left: mousePos.x / 10 - 200 }}
+            style={{ top: parseInt(mousePos.y / 10 - 50) || 0, left: parseInt( mousePos.x / 10 - 200) || 0 }}
             alt=""
           />
         </a>
